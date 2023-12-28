@@ -1,0 +1,41 @@
+.successContainer {
+  display: flex;
+  background-color: white;
+  padding: 30px;
+  border-radius: 30px;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 400px;
+  height: 400px;
+
+  .imgContainer {
+    height: 50px;
+    margin-bottom: 30px;
+  }
+
+  .textContainer {
+    h1 {
+      font-size: 50px;
+      margin: 0 0 30px 0;
+    }
+    p {
+      margin: 0 0 30px 0;
+    }
+    button {
+      height: 50px;
+      border-radius: 10px;
+      border: none;
+      background-color: hsl(234, 29%, 20%);
+      color: white;
+      font-size: 16px;
+      font-weight: 400;
+      margin: 10px 0;
+      width: 100%;
+
+      &:hover {
+        background-image: linear-gradient(to right, #ea5f78, hsl(4, 100%, 67%));
+        box-shadow: 0 5px 5px #ea5f78;
+      }
+    }
+  }
+}
